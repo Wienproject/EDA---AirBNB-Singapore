@@ -25,7 +25,7 @@ Data Source:
 The Data consists of 7323 rows x 15 columns with columns:
 - Id, name, host_id, host_name, neighbourhood_group, neighbourhood, latitude, longitude, room_type, price, minimum_nights, number_of_reviews, last_review, reviews_per_month, calculated_host_listings_count, availabity_365 
 
-## DATA Cleansing
+## DATA CLEANSING
 
   Handling Missing Value
   
@@ -71,14 +71,25 @@ According to this pie char, it is to see, that the majority of AirBNB location i
 ![Price mean and Occupancy Rate Percentage](Picture11.png)
 Then the next observfation is finding the average Price and Occupancy Rate Percentage of rooms based on their neighbourhood_group, the picture shows python code and results.
 
-## DATA VISUALIZATION
-
 ![Average Price in each neighborhood group](Picture12.png)
+
 Based on the graph is concluded:
 Central Region has the highest average price of rooms
 North Region has the lowest average price of rooms
 
 ![Occupancy Rate Percentage in each neighbourhood group](Picture13.png)
+
 Nevertheless this graph shows:
 The highest average Occupancy Rate of rooms is at the North-East Region
 The lowest average Occupancy Rate of rooms is at the Central Region 
+
+![Pie Chart](Picture16.png)
+![Amount of room type in Singapore](Picture17.png)
+The last part of our analysis is trying to find insights from the Room Type Data. We want to know how is the spread of room_types in Singapore base on their respective types. To visualize this data Pie Chart is being used.
+
+This pie chart shows, that most stay are either entire home/apt or private room, with 47.4% and 42.8%, whereas hotel room and shared room come as 3rd and 4th most favorable respectively, with 6.2% and 3.6%. Most of our partner rent us their entire home, entire apt, or private room, which can be seen via this pie chart.
+
+
+![Price mean and average of occupancy rate percentage](picture18.png)
+This code is to check the average of Price and Occupancy rate of each room type based on the whole data.
+
