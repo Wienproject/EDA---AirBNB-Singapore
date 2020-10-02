@@ -1,4 +1,4 @@
-# EDA---AirBNB-Singapore
+# Exploratory Data Analyst---AirBNB-Singapore
 
 Exploratory Data Analysis AirBNB – Singapore
 
@@ -39,4 +39,43 @@ For the columns ‘last_review’ and ‘reviews_per_month’ we fill the NaN va
 Because the rows that have NaN values on both columns are the rows the have 0 Number_of_reviews
 So we can conclude that with 0 Number_of_reviews there will also be 0 last_review and reviews_per_month
 
+(Picture7.png)
+For the missing value in column ‘name’ we fill in the value ‘Unknown’
+For the missing value in column ‘host_name’ we fill in the value ‘Classified’
 
+DATA ANALYSIST
+
+In order to approach to the Analysist,  first thing is determining what are the most critical factors to expand our business area.
+
+4 most important factorsa are needed to be identified, which are:
+Neighbourhood_group and Neighbourhood
+Price
+Occupancy Rate
+Room Type
+
+*Neighbourhood_groups and Neighbourhoods gives us basic information about locations in Singapore. By combining data based on their neighbourhood_groups / neighbourhoods we will gain information on which neighbourhood_groups / neighbourhoods should we do an expansion
+
+*Price is very important because usually price determines the occupancy rate of a room, people usually chose the room with the cheapest price.
+
+*Occupancy Rate on the other hand gives insights to us to know in which location of Singapore does AirBNB has the highest occupancy rate, so that location could be the best fitted location to doing an expansion
+
+*Room Type because we want insights on what type of room should we make an expansion on.
+
+(Picture9.png)(Picture10.png)
+The first part of the analysist is tring to find insights from the Neighbourhood_group data. We want to know how is the spread of room in Singapore base on their neighbourhood_groups available in Singapore. To visualize this data Pie chart is used.
+
+According to this pie char, it is to see, that the majority of AirBNB location is in Central Region with 80.1% The amount of all airBNB unit in this area is far beyond any other Regions, which not even 10%. City center, tourist attraction (i.e. Marina Bay Sand, Garden by the bay, and Universal studios), and location of the majority of business district are just a few example, why Central Region is the most favorable Region to stay in Singapore.
+
+(Picture11.png)
+Then the next observfation is finding the average Price and Occupancy Rate Percentage of rooms based on their neighbourhood_group, the picture shows python code and results.
+
+DATA VISUALIZATION
+
+(Picture12.png)
+Based on the graph is concluded:
+Central Region has the highest average price of rooms
+North Region has the lowest average price of rooms
+(Picture13.png)
+Nevertheless this graph shows:
+The highest average Occupancy Rate of rooms is at the North-East Region
+The lowest average Occupancy Rate of rooms is at the Central Region 
