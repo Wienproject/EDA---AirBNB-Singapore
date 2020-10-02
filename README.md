@@ -2,20 +2,20 @@
 
 Exploratory Data Analysis AirBNB – Singapore
 
-Outline of the Analysis
+## Outline of the Analysis
 - Define Problems and Goals
 - Getting data and Data Cleansing
 - Analyzing and getting data insight
 - Insight Visualization
 
-Problem:
+## Problem:
 Acting as one of AirBNB's Data Scientist, multiple insights are needed to expand our business area.
 In that case, few factors have be discovered:
 1. Where the most optimal location to make an expansion is.
 2. Best estimated price on each location.
 3. Which room type have the highest occupancy rate for each location
 
-Goal:
+## Goal:
 Exploring data to figure out insights that will help solving defined problem.
 
 Data Source:
@@ -25,7 +25,8 @@ Data Source:
 The Data consists of 7323 rows x 15 columns with columns:
 - Id, name, host_id, host_name, neighbourhood_group, neighbourhood, latitude, longitude, room_type, price, minimum_nights, number_of_reviews, last_review, reviews_per_month, calculated_host_listings_count, availabity_365 
 
-DATA Cleansing
+## DATA Cleansing
+
   Handling Missing Value
   
 ![This figure shows which columns has Missing values](Picture2.png) 
@@ -43,7 +44,7 @@ So we can conclude that with 0 Number_of_reviews there will also be 0 last_revie
 For the missing value in column ‘name’ we fill in the value ‘Unknown’
 For the missing value in column ‘host_name’ we fill in the value ‘Classified’
 
-DATA ANALYSIST
+## DATA ANALYSIST
 
 In order to approach to the Analysist,  first thing is determining what are the most critical factors to expand our business area.
 
@@ -70,12 +71,13 @@ According to this pie char, it is to see, that the majority of AirBNB location i
 ![Price mean and Occupancy Rate Percentage](Picture11.png)
 Then the next observfation is finding the average Price and Occupancy Rate Percentage of rooms based on their neighbourhood_group, the picture shows python code and results.
 
-DATA VISUALIZATION
+## DATA VISUALIZATION
 
 ![Average Price in each neighborhood group](Picture12.png)
 Based on the graph is concluded:
 Central Region has the highest average price of rooms
 North Region has the lowest average price of rooms
+
 ![Occupancy Rate Percentage in each neighbourhood group](Picture13.png)
 Nevertheless this graph shows:
 The highest average Occupancy Rate of rooms is at the North-East Region
