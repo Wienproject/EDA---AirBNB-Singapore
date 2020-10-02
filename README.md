@@ -39,7 +39,7 @@ For the columns ‘last_review’ and ‘reviews_per_month’ we fill the NaN va
 Because the rows that have NaN values on both columns are the rows the have 0 Number_of_reviews
 So we can conclude that with 0 Number_of_reviews there will also be 0 last_review and reviews_per_month
 
-(Picture7.png)
+![Missing Value](Picture7.png)
 For the missing value in column ‘name’ we fill in the value ‘Unknown’
 For the missing value in column ‘host_name’ we fill in the value ‘Classified’
 
@@ -61,21 +61,22 @@ Room Type
 
 *Room Type because we want insights on what type of room should we make an expansion on.
 
-(Picture9.png)(Picture10.png)
+![Pie Chart](Picture9.png)
+![Ammount of data variances](Picture10.png)
 The first part of the analysist is tring to find insights from the Neighbourhood_group data. We want to know how is the spread of room in Singapore base on their neighbourhood_groups available in Singapore. To visualize this data Pie chart is used.
 
 According to this pie char, it is to see, that the majority of AirBNB location is in Central Region with 80.1% The amount of all airBNB unit in this area is far beyond any other Regions, which not even 10%. City center, tourist attraction (i.e. Marina Bay Sand, Garden by the bay, and Universal studios), and location of the majority of business district are just a few example, why Central Region is the most favorable Region to stay in Singapore.
 
-(Picture11.png)
+![Price mean and Occupancy Rate Percentage](Picture11.png)
 Then the next observfation is finding the average Price and Occupancy Rate Percentage of rooms based on their neighbourhood_group, the picture shows python code and results.
 
 DATA VISUALIZATION
 
-(Picture12.png)
+![Average Price in each neighborhood group](Picture12.png)
 Based on the graph is concluded:
 Central Region has the highest average price of rooms
 North Region has the lowest average price of rooms
-(Picture13.png)
+![Occupancy Rate Percentage in each neighbourhood group](Picture13.png)
 Nevertheless this graph shows:
 The highest average Occupancy Rate of rooms is at the North-East Region
 The lowest average Occupancy Rate of rooms is at the Central Region 
