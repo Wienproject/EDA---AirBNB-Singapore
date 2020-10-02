@@ -95,11 +95,11 @@ The last part of our analysis is trying to find insights from the Room Type Data
 This pie chart shows, that most stay are either entire home/apt or private room, with 47.4% and 42.8%, whereas hotel room and shared room come as 3rd and 4th most favorable respectively, with 6.2% and 3.6%. Most of our partner rent us their entire home, entire apt, or private room, which can be seen via this pie chart.
 
 
-![Histogram](picture18.png)
+(picture18.png)
 
 This code is to check the average of Price and Occupancy rate of each room type based on the whole data.
 
-![Histogram](Picture22.png)
+(Picture22.png)
 
 The next step is observing to be more specific the average Price and Occupancy Rate of each Room_Type based on their Neighbourhood_group, the picture shows the used code and the results. Nevertheless Nan is seen as Missing values on some columns. Within this Neighbourhood_group, the corresponding Room_type is barely not available.
 
@@ -162,13 +162,3 @@ According to our research, Central Region is simply loved by tourists with its t
 Based on the analysis and visualizations of Airbnb Singapore dataset, we see the potential for expansion in the North-East Region, especially in the neighbourhood of Ang-Mo-Kio, Punggol, Sengkang and Serangoon which showed high occupancy rate. We recommend expansion on those regions with Shared Room type as the most preferred one in those region. 
 
 Nevertheless we saw North-East Region as a new potential to expand our business coverage. Relatively high occupancy area with a decent price could be a unique selling point, that this region could provide. It is also located not so far from the Changi International airport is also big selling point as well. 
-
-
-
-
-
-
-
-
-
-
