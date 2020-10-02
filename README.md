@@ -21,3 +21,4 @@ Exploring data to figure out insights that will help solving defined problem.
 Data Source:
 •http://insideairbnb.com/get-the-data.html - Singapore - listings.csv
 
+![Data Frame](Picture1.png)
