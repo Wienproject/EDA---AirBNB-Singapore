@@ -34,7 +34,7 @@ DATA Cleansing
 - 22 rows of missing values in columns ‘host_name
 - 2835 rows of missing values from columns ‘last_review’ and ‘reviews_per_month’ 
 
-![Filling missing Values](Picture26.png)
+![Filling missing Values](Picture6.png)
 For the columns ‘last_review’ and ‘reviews_per_month’ we fill the NaN values with 0 (zero).
 Because the rows that have NaN values on both columns are the rows the have 0 Number_of_reviews
 So we can conclude that with 0 Number_of_reviews there will also be 0 last_review and reviews_per_month
