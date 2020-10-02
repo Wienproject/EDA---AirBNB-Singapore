@@ -95,11 +95,11 @@ The last part of our analysis is trying to find insights from the Room Type Data
 This pie chart shows, that most stay are either entire home/apt or private room, with 47.4% and 42.8%, whereas hotel room and shared room come as 3rd and 4th most favorable respectively, with 6.2% and 3.6%. Most of our partner rent us their entire home, entire apt, or private room, which can be seen via this pie chart.
 
 
-![Price mean and average of occupancy rate percentage](picture18.png)
+![Histogram](picture18.png)
 
 This code is to check the average of Price and Occupancy rate of each room type based on the whole data.
 
-![Price mean and average of occupancy rate percentage](Picture22.png)
+![Histogram](Picture22.png)
 
 The next step is observing to be more specific the average Price and Occupancy Rate of each Room_Type based on their Neighbourhood_group, the picture shows the used code and the results. Nevertheless Nan is seen as Missing values on some columns. Within this Neighbourhood_group, the corresponding Room_type is barely not available.
 
