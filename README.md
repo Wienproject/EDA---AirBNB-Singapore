@@ -50,7 +50,7 @@ For the missing value in column ‘host_name’ we fill in the value ‘Classifi
 
 In order to approach to the Analysist,  first thing is determining what are the most critical factors to expand our business area.
 
-4 most important factorsa are needed to be identified, which are:
+4 most important factors are needed to be identified, which are:
 Neighbourhood_group and Neighbourhood
 Price
 Occupancy Rate
